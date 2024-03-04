@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        
+
+        <nav class="navbar">
+        <div class="topBra">
+            <a href="#home" style="--i:1" class="active mobile">Home</a>
+            <a href="#about" style="--i:2" class="mobile">About</a>
+            <a href="#Siklls" style="--i:3" class="mobile" >Skills</a>
+            <a href="#education" style="--i:4" class="mobile">Portfolio</a>
+            <a href="#contact" style="--i:5" class="mobile">Contact</a>
+            <a  onclick=showSlidebar() id="menu-icon"><i class='bx bx-menu-alt-right' ></i></a>
+           
+        </div>
+
+
+            <div class="sideBar">
+                <a  onclick=hidelidebar()><i class='bx bx-x' id="X-icon"></i></a>
+                <a href="#home" style="--i:1" class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#Siklls"  style="--i:3">Skills</a>
+                <a href="#education" style="--i:4">Portfolio</a>
+                <a href="#contact" style="--i:5">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--home-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey,It's Me</h3>
+            <h1>Mahender Singh</h1>
+            <h3>I'm a <span class="text"></span></h3>
+            <p>Crafting digital experiences that blend creativity with functionality, I specialize in turning innovative ideas into seamless web solutions.
+                <br>
+                Get your space suit ready and tell me your ideas to develop your dream website.
+            </p>
+            <div class="social-media">
+                <a title="linkedin" target="_blank" href="https://www.linkedin.com/in/mahender-s-6346491a6/" style="--i:7"><i class='bx bxl-linkedin-square' ></i></a>
+                <a title="instagram" target="_blank" href="https://www.instagram.com/mahender._.singh27/" style="--i:8"><i class='bx bxl-instagram-alt' ></i></a>
+                <a title="github" target="_blank" href="https://github.com/MahenderSingh2004" style="--i:9"><i class='bx bxl-github' ></i></a>
+                <a title="Projects" target="_blank" href="https://mahendersingh2004.github.io/Virtual-Pilgrimage/" style="--i:10"><i class='bx bx-link' ></i></a>
+            </div>
+            <a href="/Mahender.pdf"  style="--i:12" class="btn " download="Mahender Resume">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./img/IMG_20230601_152841.jpg" alt="myPic" height="600px" width="300px">
+        </div>
+    </section>
+
+    <!--about-->  
+
+    <section class="about" id="about">
+        <div class="about-img">
+             <img src="./img/Picsart_23-07-11_21-00-46-968.jpg" alt="myPic" height="575px" width="400px">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span> </h2>
+            <h4>Full Stack Developer</h4>
+            <p>I am <span>Mahender Singh</span>, a passionate freelancer from Delhi, India and a graduate in Bachelor of Technology in Information Technology from College of Engineering Roorkee, bringing you web development and design from the future. My expertise is developing next-level websites and web applications including full frontend design.</p>
+            <a href="/Mahender.pdf" download="Mahender Resume"   style="--i:13" class="btn">More About Me</a>
+        </div>
+    </section>
+
+    <!--Skills--> 
+
+    
+    <section id="Siklls" >
+        <h1 class="sub-title" onclick="myReload()" >My <span>Skills</span></h1>
+        <section class="container1">
+        <div class="container" id="Siklls1">
+            <h1 class="heading">Technical Skills</h1>
+            <div class="technical-bars ">
+                <div class="bar" ><i style="color: #6000c7;" class='bx bxl-c-plus-plus' ></i>
+                    <div class="info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progres-line Cpp">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #eaa045" class='bx bxl-java' ></i>
+                    <div class="info">
+                        <span>JAVA</span>
+                    </div>
+                    <div class="progres-line java">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#d30000;" class='bx bxl-html5' ></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progres-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#5E97D0 ; " class='bx bxl-css3' ></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progres-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #b0bc1e ;" class='bx bxl-javascript' ></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progres-line JavaScript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #69bcbc ;" class='bx bxs-data' ></i>
+                    <div class="info">
+                        <span>SQL</span>
+                    </div>
+                    <div class="progres-line SQL">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#fff1ad;" class='bx bxl-python' ></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progres-line Python">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="heading">Professional Skills</h1>
+           <div class="radial-bars">
+            <div class="radial-bar" onload="ScrollReveal()">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Creativity</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Communication</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Problem Solving</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">TeamWork</div>
+            </div>
+           </div>
+
+
+        </div>
+    </section>
+
+    </section>
+
+    <!--portfolio-->
+    <section class="education" id="education">
+        <h2 class="sub-title">My <span>journey</span></h2>
+    
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">education</h3>
+    
+                <div class="education-box"> 
+                 <div class="education-content"> 
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar' ></i> 2019 - 2023 </div>
+                        <h3>Bachler Degree-University</h3>
+                        <p>Graduated in B.Tech in Information and technology Engineering (2019-
+                            2023) from Uttarakhand Technical Univerity.</p>
+                        <p>Percentage: - 70%</p>
+                    </div>
+                 </div>
+                 <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar' ></i> 2017 - 2018 </div>
+                        <h3>Intermediate </h3>
+                        <p>passed out 12th from CBSE(board)    (2018).</p>
+                        <p>Percentage: - 63%</p>   
+                    </div>
+                 </div>
+                 <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar' ></i> 2014 - 2015 </div>
+                        <h3>High-Schools</h3>
+                        <p>passed out 10th from CBSE(board)  (2015).</p>
+                        <p>Percentage: -6.0 CGPA</p>
+                    </div>
+                 </div>
+                </div>
+            </div>
+    
+            <div class="education-column">
+                <h3 class="title">Projects</h3>
+    
+                <div class="education-box">
+                 <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar' ></i>Aug 2022 - Jan 2023 </div>
+                        <h3>Virtual Pilgrimage</h3>
+                        <p> Objective: To create a 360 Degree view of the pilgrimage to
+                            give a real-life experience to the user.</p>
+                         <p> Tools: HTML, CSS, JavaScript, Memento 360</p>  
+                    </div>
+                 </div>
+                 <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar' ></i> Dec 2020 - Mar 2021 </div>
+                        <h3>SMS/E-Mail Spam Classification</h3>
+                        <p> Objective: To determine if the email or SMS belongs to
+                            spam or relevant category using binary classification for the
+                            provided dataset</p>
+                        <p>Tools: Anaconda, Python, PyCharm</p>
+
+                    </div>
+                 </div>
+                 <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar' ></i>Mar 2020 - Apr 2020 </div>
+                        <h3>Instagram Clone</h3>
+                        <p>Objective: To create a posting page where user can scroll
+                            and see the posted image.
+                            </p>
+                        <p>Tools: HTML, CSS</p>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contactUs-->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2 class="sub-title">Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Ready to take your digital presence to the next level? Look no further! Whether you're a startup dreaming big or an established business aiming for digital evolution, I'm your go-to partner in innovation. With a blend of creativity, technical expertise, and a relentless drive for excellence, I'm here to bring your vision to life. Let's embark on a journey of collaboration and creativity, where every click brings us closer to your digital success story. Reach out today, and let's craft the future together!</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send' ></i>mahendersingh2004a@gmail.com</li>
+                <li><i class='bx bxs-phone'></i>8851011821</li>
+            </div>
+            <div class="contact-icons">
+                <a title="github" target="_blank" href="https://github.com/MahenderSingh2004"><i class='bx bxl-github' ></i></a>
+                <a title="linkedin" target="_blank" href="https://www.linkedin.com/in/mahender-s-6346491a6/"><i class='bx bxl-linkedin' ></i></a>
+                <a title="instagram" target="_blank" href="https://www.instagram.com/mahender._.singh27/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a title="Projects" target="_blank" href="https://mahendersingh2004.github.io/Virtual-Pilgrimage/" ><i class='bx bx-link' ></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="mailto:mahendersingh2004a@gmail.com " method="post" enctype="text/plain">
+                <input type="text" id="name" placeholder="Enter your name " required>
+                <input type="email" id="email" placeholder="Enter your email " required>
+                <input type="number" id="number"  placeholder="Enter your phone number " required>
+                <input type="text" id="sunject"  placeholder="Enter your subject " required>
+                <textarea name="" id="message" id="" cols="40" rows="10" placeholder="Enter your Message " required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Mahender Singh | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevron-up' ></i></a>
+        </div>
+    </footer>
+
+    
+
+
+
+
+
+
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
